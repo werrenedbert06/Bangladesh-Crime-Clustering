@@ -37,7 +37,7 @@ This project tackles an **unsupervised clustering problem** to discover natural 
 | Property | Details |
 |----------|---------|
 | File | `Bangladesh Crime.csv` |
-| Shape | 6,574 rows × 25 columns (before cleaning) |
+| Shape | 6,574 rows × 26 columns (before cleaning) |
 | Target Column | `crime` — **reference only**, not used in modeling |
 
 **Feature Categories:**
@@ -142,8 +142,6 @@ Cluster quality assessed using internal validation metrics on the final K=2 mode
 | Silhouette Score | ↑ Higher is better (max 1.0) |
 | Davies-Bouldin | ↓ Lower is better |
 | Calinski-Harabasz | ↑ Higher is better |
-
-> No accuracy or F1 score — this is unsupervised learning. There is no ground truth label to evaluate against.
 
 ---
 
